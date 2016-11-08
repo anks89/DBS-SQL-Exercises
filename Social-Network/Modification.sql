@@ -20,7 +20,6 @@ where ID1 in
 
 -- Question 3
 -- For all cases where A is friends with B, and B is friends with C, add a new friendship for the pair A and C. Do not add duplicate friendships, friendships that already exist, or friendships with oneself
-
 insert into Friend
   select F1.ID1, F2.ID2
   from Friend F1, Friend F2
